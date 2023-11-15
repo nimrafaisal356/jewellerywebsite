@@ -1,0 +1,68 @@
+.websiteContainer{
+    width: 100%;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.slide{
+    background: #8B959E;
+}
+
+
+.slide .header{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.slide .header .logo{
+    font-size: 50px;
+    color: #fff;
+    width: 20%;
+}
+
+
+.headerMenu{
+    width: 50%;
+}
+
+
+.headerMenu ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.headerMenu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.header .account{
+    width: 20%;
+    padding: 10px 0;
+}
+
+.header .account button{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.slide .slideInfo{
+    
+}
+
+
+.slide .slideInfo .slidetext{
+    
+}
+
+.slide .slideInfo .slideImg{
+    
+}
