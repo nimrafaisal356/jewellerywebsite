@@ -1,68 +1,206 @@
-.websiteContainer{
-    width: 100%;
-    max-width: 1400px;
-    min-height: 100vh;
-    margin: 0 auto;
+body{
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.slide{
-    background: #8B959E;
+.websiteContainer {
+  width: 100%;
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.slide {
+  background: #8b959e;
+}
+
+.slide .header {
+  display: flex;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+
+.slide .header .logo {
+  font-size: 50px;
+  color: #fff;
+  width: 20%;
+}
+
+.headerMenu {
+  width: 50%;
+}
+
+.headerMenu ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.headerMenu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.header .account {
+  width: 20%;
+  padding: 10px 0;
+}
+
+.header .account button {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+
+.slide .slideInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide .slideInfo .slidetext h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.slide .slideInfo .slidetext button {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+
+.slide .slideInfo .slideImg img {
+  width: 400px;
+}
+.ads {
+  padding: 40px 0;
+}
+
+.adsbanners {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.adsbanners .banner img {
+  width: 300px;
+  height: 250px;
+  filter: grayscale(30%);
+}
+
+.adsbanners .banner p {
+  position: absolute;
+  margin: -4% 5%;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.ads .banner1 img {
+  width: 300px;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+.ads .banner2 img {
+  margin-left: 30px;
+  margin-top: 60px;
+  height: 205px;
+}
+.ads .banner3 img {
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.category h2 {
+  margin-left: 550px;
+}
+
+.category .images {
+  display: flex;
+}
+.category .images .bracelet img {
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.category .images .watches img {
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.category .images .necklaces img {
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.category .images .earrings img {
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.category .images .ring img {
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.category .images .bracelet p {
+  margin-left: 210px;
+}
+.category .images .watches p {
+  margin-left: 70px;
+}
+.category .images .necklaces p {
+  margin-left: 60px;
+}
+.category .images .earrings p {
+  margin-left: 60px;
+}
+.category .images .ring p {
+  margin-left: 65px;
+}
+
+.about {
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background: #fff3e9;
+}
+
+.about .abouttext {
+  margin-left: 100px;
+}
+
+.about .abouttext .point{
+    margin: 40px 0;
+}
+
+.about .abouttext .point h3 {
+    margin: 0;
+}
+.about .abouttext .point p {
+}
+
+.about .aboutimg {
+  height: 440px;
+  width: 558px;
 }
 
 
-.slide .header{
+
+/* Generic css */
+
+.dflex {
     display: flex;
-    padding: 20px 30px;
-    justify-content: space-between;
-}
-
-.slide .header .logo{
-    font-size: 50px;
-    color: #fff;
-    width: 20%;
-}
-
-
-.headerMenu{
-    width: 50%;
-}
-
-
-.headerMenu ul li{
-    display: inline;
-    margin: 0 10px;
-}
-
-.headerMenu ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-
-.header .account{
-    width: 20%;
-    padding: 10px 0;
-}
-
-.header .account button{
-    background: transparent;
-    border: 1px solid #fff;
-    padding: 10px;
-    color: #fff;
-}
-
-
-.slide .slideInfo{
-    
-}
-
-
-.slide .slideInfo .slidetext{
-    
-}
-
-.slide .slideInfo .slideImg{
-    
+    gap: 10px;
 }
